@@ -1,0 +1,89 @@
+  .container {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+
+  .text-center {
+    text-align: center;
+  }
+
+  .mb-3 {
+    margin-bottom: 1rem;
+  }
+
+  h4 {
+    font-size: 1.2em;
+    margin-bottom: 1rem;
+  }
+
+  h5 {
+    font-size: 1em;
+    color: #6c757d;
+  }
+
+  .app-todo-item {
+    margin-bottom: 1rem;
+  }
+
+  /* Optional: Style for add-todo component (if needed) */
+  .app-add-todo {
+    margin-bottom: 1rem;
+  }
+
+  /* Add a fade-in animation */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* Apply the fade-in animation to .container */
+.container {
+  animation: fadeIn 0.5s ease;
+}
+
+/* Add a hover effect for buttons */
+.btn {
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #007bff;
+  color: #fff;
+}
+
+/* Add a subtle hover effect for links */
+.nav-link {
+  transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+  color: #007bff;
+}
+
+/* Add a subtle hover effect for checkboxes */
+.form-check-input:hover {
+  cursor: pointer;
+}
+
+/* Add a transition for checkbox state changes */
+.form-check-input {
+  transition: transform 0.3s ease;
+}
+
+.form-check-input:checked {
+  transform: scale(1.1);
+}
+
+/* Optional: Add a subtle hover effect for delete buttons */
+.btn-danger:hover {
+  background-color: #dc3545;
+  border-color: #dc3545;
+}

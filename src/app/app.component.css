@@ -1,0 +1,29 @@
+/* Navbar Styles */
+.navbar {
+  background-color: #ffffff; /* Set the background color */
+  border-bottom: 1px solid #ccc; /* Add a border at the bottom */
+  padding: 10px 0; /* Add some padding */
+}
+
+.navbar-brand h2 {
+  margin: 0; /* Remove any default margin */
+}
+
+.navbar-toggler {
+  border: none; /* Remove border from toggler */
+}
+
+.nav-link {
+  color: #333; /* Set the link color */
+  transition: color 0.3s; /* Add transition effect for color change */
+}
+
+.nav-link.active {
+  font-weight: bold; /* Make the active link bold */
+}
+
+/* Hover effect for links */
+.nav-link:hover {
+  color: #007bff; /* Change the link color on hover */
+  text-decoration: none; /* Remove underline on hover */
+}

@@ -1,0 +1,72 @@
+.my-3 {
+  padding: 1rem;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.dark-mode-text {
+  color: #ffffff;
+}
+
+.strike {
+  text-decoration: line-through;
+}
+
+.form-check-input {
+  margin-right: 8px;
+}
+
+.btn-danger {
+  background-color: #dc3545;
+  border-color: #dc3545;
+}
+
+.btn-danger:hover {
+  background-color: #c82333;
+  border-color: #bd2130;
+}
+
+/* Animation for todo items */
+@keyframes slideIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.slide-in {
+  animation: slideIn 0.5s ease forwards;
+}
+
+/* Animation for checkbox click */
+@keyframes checkmark {
+  0% {
+    transform: scale(0);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.checkmark-animation {
+  animation: checkmark 0.3s ease;
+}
+
+/* Animation for delete button */
+@keyframes scaleDown {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(0);
+  }
+}
+
+.scale-down {
+  animation: scaleDown 0.3s ease forwards;
+}

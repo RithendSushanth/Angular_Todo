@@ -1,0 +1,28 @@
+/* Style the About Us section */
+#about-us {
+    background-color: #f8f9fa; /* Set background color */
+    padding: 50px 0; /* Add some vertical padding */
+  }
+  
+  .container {
+    text-align: center; /* Center the content */
+  }
+  
+  h2 {
+    font-size: 2em; /* Set the font size for the heading */
+    margin-bottom: 20px; /* Add some space below the heading */
+  }
+  
+  p {
+    font-size: 1.1em; /* Set the font size for paragraphs */
+    color: #333; /* Set text color */
+    margin-bottom: 20px; /* Add space between paragraphs */
+  }
+  
+  /* Style the image */
+  .img-fluid {
+    max-width: 100%; /* Make sure the image doesn't exceed its container */
+    border-radius: 8px; /* Add some border radius for rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow */
+  }
+  
